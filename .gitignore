@@ -1,0 +1,9 @@
+datasets/
+__pycache__/*
+tmp/
+*/__pycache__/
+ckpts/
+logs/
+dev*
+*.txt
+env
