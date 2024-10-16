@@ -123,9 +123,9 @@ class DatasetLoader(object):
     def _parse_gpt_output(self, output):
         raise NotImplementedError
 
-class CMGDatasetLoader(DatasetLoader):
+class PYTHONDatasetLoader(DatasetLoader):
     def __init__(self, subset='full'):
-        dataset_name = 'cmg'
+        dataset_name = 'python'
         source_dataset_name = 'esnli'
         dataset_version = None
         has_valid = True
